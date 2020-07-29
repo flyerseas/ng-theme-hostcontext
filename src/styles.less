@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.themeMixin(@rules) {
+  :host-context(.dark) {
+    @import "theme-dark";
+    @rules();
+  }
+  :host-context(.light) {
+    @import "theme-light";
+    @rules();
+  }
+}
