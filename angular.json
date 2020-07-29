@@ -27,7 +27,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [ "src/light.less","src/dark.less" ],
+            "styles": [ "src/theme-light.less","src/theme-dark.less" ],
             "scripts": []
           },
           "configurations": {
